@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T07:37:25.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" version="14.0.4" etag="MNQxvKf1JDj1cNWgjj1x" type="github"><diagram id="ZGVYc-kuVo9qNvVoikeZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-17T07:51:13.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="Z-XZY26XIquOkyCIspnp" version="14.0.4" type="github">
+  <diagram id="ZGVYc-kuVo9qNvVoikeZ" name="Page-1">
+    <mxGraphModel dx="719" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RatAnrVPAcNZpMuiU217-2" value="匹配中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="210" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-6" value="匹配成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="330" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-7" value="匹配失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RatAnrVPAcNZpMuiU217-2" target="RatAnrVPAcNZpMuiU217-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="330" as="sourcePoint" />
+            <mxPoint x="234.66" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-12" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;另一个人&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;接受匹配&lt;br&gt;&lt;/span&gt;or&lt;br&gt;接受邀请&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-16" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RatAnrVPAcNZpMuiU217-2" target="RatAnrVPAcNZpMuiU217-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="294.66" as="sourcePoint" />
+            <mxPoint x="380" y="294.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-17" value="超过90s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-21" value="空闲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="130" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RatAnrVPAcNZpMuiU217-21" target="RatAnrVPAcNZpMuiU217-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234.66" y="210" as="sourcePoint" />
+            <mxPoint x="234.66" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-28" value="点击&lt;br&gt;匹配" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-30" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RatAnrVPAcNZpMuiU217-21" target="RatAnrVPAcNZpMuiU217-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202.5" y="140" as="sourcePoint" />
+            <mxPoint x="142.5" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-32" value="收到匹配&lt;br&gt;推送邀请" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-33" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RatAnrVPAcNZpMuiU217-32" target="RatAnrVPAcNZpMuiU217-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="370" as="sourcePoint" />
+            <mxPoint x="170" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-35" value="从悬浮窗or业务内" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RatAnrVPAcNZpMuiU217-36" value="接受弹窗匹配邀请" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
