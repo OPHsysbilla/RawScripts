@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T10:31:52.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="wG6vlDNhilSu67EmR6JY" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T10:49:40.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="fwoxFxZPxDQuLAhgIyHP" version="14.0.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1718" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
           <mxGeometry x="40" y="165" width="50" height="10" as="geometry" />
         </mxCell>
         <mxCell id="pDErtW31qNbLOewcHWBB-50" value="&lt;span style=&quot;font-size: 8px&quot;&gt;seq = y, ackNum = x + 1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=7;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="500" y="195" width="140" height="10" as="geometry" />
+          <mxGeometry x="520" y="200" width="140" height="10" as="geometry" />
         </mxCell>
         <mxCell id="pDErtW31qNbLOewcHWBB-53" value="SYN + ACK&lt;br&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="249" y="205" width="110" height="20" as="geometry" />
@@ -155,10 +155,10 @@
           <mxGeometry x="450" y="375" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pDErtW31qNbLOewcHWBB-107" value="&lt;span style=&quot;font-size: 10px&quot;&gt;结合之前所有通信参数的hash值，用enc_key加密，让客户端验证&lt;/span&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="470" y="415" width="195" height="40" as="geometry" />
+          <mxGeometry x="472.5" y="430" width="195" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pDErtW31qNbLOewcHWBB-108" value="Encrypted Handshake Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="660" y="425" width="190" height="20" as="geometry" />
+          <mxGeometry x="560" y="410" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pDErtW31qNbLOewcHWBB-109" value="&lt;span style=&quot;font-size: 10px&quot;&gt;用enc_key解密，结合之前所有接受信息的hash值，验证&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9px&quot;&gt;验证通过则完成握手&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-260" y="620" width="330" height="40" as="geometry" />
@@ -286,8 +286,48 @@
         <mxCell id="pDErtW31qNbLOewcHWBB-158" value="ack = o + 1&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="10" y="940" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pDErtW31qNbLOewcHWBB-163" value="&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;仅仅表示对方不再发送数据了&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;但是还能接收数据，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;己方是否现在关闭发送数据通道，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;需要上层应用来决定&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#56517e;fillColor=#d0cee2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="590" y="780" width="195" height="65" as="geometry" />
+        <mxCell id="pDErtW31qNbLOewcHWBB-163" value="&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;仅仅表示对方不再发送数据了&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;但是还能接收数据，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;己方是否现在关闭发送数据通道，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;需要上层应用来决定&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="590" y="780" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-164" value="&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;四次挥手 + FIN / ACK 分开&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="620" y="740" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-165" value="&lt;div style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font size=&quot;1&quot;&gt;三次握手 ： 交换初始序列号ISN&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="515" y="120" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-167" value="&lt;div&gt;&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;TCP连接是双向传输的对等的模式&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="590" y="760" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-169" value="如果ISN是固定的，攻击者很容易猜出后续的确认号" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="515" y="140" width="200" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-176" value="" style="endArrow=classic;html=1;fontSize=9;fontColor=#000000;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;fontStyle=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pDErtW31qNbLOewcHWBB-9" target="pDErtW31qNbLOewcHWBB-182">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="195" as="sourcePoint" />
+            <mxPoint x="680" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-180" value="全连接队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-181" value="" style="curved=1;endArrow=classic;html=1;dashed=1;fontSize=9;fontColor=#000000;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.029;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pDErtW31qNbLOewcHWBB-86" target="pDErtW31qNbLOewcHWBB-180">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="460" as="sourcePoint" />
+            <mxPoint x="570" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="460" />
+              <mxPoint x="510" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-182" value="防止不断发SYN包导致服务器连接耗尽" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="680" y="197.5" width="120" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pDErtW31qNbLOewcHWBB-175" value="半连接队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="185" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
