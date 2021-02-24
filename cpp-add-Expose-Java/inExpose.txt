@@ -1,0 +1,990 @@
+
+public class ProfileAppendInfo {
+    @SerializedName("name")
+    private String name;
+    @SerializedName("fortune")
+    private FortuneBean fortune;
+    @SerializedName("online_tag")
+    private OnlineTagBean onlineTag;
+    @SerializedName("marks")
+    private MarksBean marks;
+    @SerializedName("device_info")
+    private DeviceInfoBean deviceInfo;
+    @SerializedName("talent_list")
+    private TalentListBean talentList;
+    @SerializedName("photo_list")
+    private List<PhotoListBean> photoList;
+    @SerializedName("exquisite_album")
+    private List<ExquisiteAlbumBean> exquisiteAlbum;
+    @SerializedName("achievement")
+    private List<AchievementBean> achievement;
+    @SerializedName("question_list")
+    private List<QuestionListBean> questionList;
+    @SerializedName("user_data")
+    private List<UserDataBean> userData;
+    @SerializedName("greet_question")
+    private List<GreetQuestionBean> greetQuestion;
+    @SerializedName("greet_wish")
+    private List<GreetWishBean> greetWish;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public FortuneBean getFortune() {
+        return fortune;
+    }
+
+    public void setFortune(FortuneBean fortune) {
+        this.fortune = fortune;
+    }
+
+    public OnlineTagBean getOnlineTag() {
+        return onlineTag;
+    }
+
+    public void setOnlineTag(OnlineTagBean onlineTag) {
+        this.onlineTag = onlineTag;
+    }
+
+    public MarksBean getMarks() {
+        return marks;
+    }
+
+    public void setMarks(MarksBean marks) {
+        this.marks = marks;
+    }
+
+    public DeviceInfoBean getDeviceInfo() {
+        return deviceInfo;
+    }
+
+    public void setDeviceInfo(DeviceInfoBean deviceInfo) {
+        this.deviceInfo = deviceInfo;
+    }
+
+    public TalentListBean getTalentList() {
+        return talentList;
+    }
+
+    public void setTalentList(TalentListBean talentList) {
+        this.talentList = talentList;
+    }
+
+    public List<PhotoListBean> getPhotoList() {
+        return photoList;
+    }
+
+    public void setPhotoList(List<PhotoListBean> photoList) {
+        this.photoList = photoList;
+    }
+
+    public List<ExquisiteAlbumBean> getExquisiteAlbum() {
+        return exquisiteAlbum;
+    }
+
+    public void setExquisiteAlbum(List<ExquisiteAlbumBean> exquisiteAlbum) {
+        this.exquisiteAlbum = exquisiteAlbum;
+    }
+
+    public List<AchievementBean> getAchievement() {
+        return achievement;
+    }
+
+    public void setAchievement(List<AchievementBean> achievement) {
+        this.achievement = achievement;
+    }
+
+    public List<QuestionListBean> getQuestionList() {
+        return questionList;
+    }
+
+    public void setQuestionList(List<QuestionListBean> questionList) {
+        this.questionList = questionList;
+    }
+
+    public List<UserDataBean> getUserData() {
+        return userData;
+    }
+
+    public void setUserData(List<UserDataBean> userData) {
+        this.userData = userData;
+    }
+
+    public List<GreetQuestionBean> getGreetQuestion() {
+        return greetQuestion;
+    }
+
+    public void setGreetQuestion(List<GreetQuestionBean> greetQuestion) {
+        this.greetQuestion = greetQuestion;
+    }
+
+    public List<GreetWishBean> getGreetWish() {
+        return greetWish;
+    }
+
+    public void setGreetWish(List<GreetWishBean> greetWish) {
+        this.greetWish = greetWish;
+    }
+
+    public static class FortuneBean {
+        @SerializedName("icon")
+        private String icon;
+        @SerializedName("text")
+        private String text;
+        @SerializedName("text_color")
+        private String textColor;
+        @SerializedName("bg_color")
+        private String bgColor;
+
+        public String getIcon() {
+            return icon;
+        }
+
+        public void setIcon(String icon) {
+            this.icon = icon;
+        }
+
+        public String getText() {
+            return text;
+        }
+
+        public void setText(String text) {
+            this.text = text;
+        }
+
+        public String getTextColor() {
+            return textColor;
+        }
+
+        public void setTextColor(String textColor) {
+            this.textColor = textColor;
+        }
+
+        public String getBgColor() {
+            return bgColor;
+        }
+
+        public void setBgColor(String bgColor) {
+            this.bgColor = bgColor;
+        }
+    }
+
+    public static class OnlineTagBean {
+        @SerializedName("icon")
+        private String icon;
+        @SerializedName("icon_type")
+        private String iconType;
+        @SerializedName("bg_color")
+        private String bgColor;
+        @SerializedName("text_color")
+        private String textColor;
+        @SerializedName("text")
+        private String text;
+        @SerializedName("isshining")
+        private int isshining;
+        @SerializedName("goto")
+        private String gotoX;
+
+        public String getIcon() {
+            return icon;
+        }
+
+        public void setIcon(String icon) {
+            this.icon = icon;
+        }
+
+        public String getIconType() {
+            return iconType;
+        }
+
+        public void setIconType(String iconType) {
+            this.iconType = iconType;
+        }
+
+        public String getBgColor() {
+            return bgColor;
+        }
+
+        public void setBgColor(String bgColor) {
+            this.bgColor = bgColor;
+        }
+
+        public String getTextColor() {
+            return textColor;
+        }
+
+        public void setTextColor(String textColor) {
+            this.textColor = textColor;
+        }
+
+        public String getText() {
+            return text;
+        }
+
+        public void setText(String text) {
+            this.text = text;
+        }
+
+        public int getIsshining() {
+            return isshining;
+        }
+
+        public void setIsshining(int isshining) {
+            this.isshining = isshining;
+        }
+
+        public String getGotoX() {
+            return gotoX;
+        }
+
+        public void setGotoX(String gotoX) {
+            this.gotoX = gotoX;
+        }
+    }
+
+    public static class MarksBean {
+        @SerializedName("bg_color")
+        private String bgColor;
+        @SerializedName("text_list")
+        private List<String> textList;
+
+        public String getBgColor() {
+            return bgColor;
+        }
+
+        public void setBgColor(String bgColor) {
+            this.bgColor = bgColor;
+        }
+
+        public List<String> getTextList() {
+            return textList;
+        }
+
+        public void setTextList(List<String> textList) {
+            this.textList = textList;
+        }
+    }
+
+    public static class DeviceInfoBean {
+        @SerializedName("text")
+        private String text;
+
+        public String getText() {
+            return text;
+        }
+
+        public void setText(String text) {
+            this.text = text;
+        }
+    }
+
+    public static class TalentListBean {
+        @SerializedName("display_count")
+        private int displayCount;
+        @SerializedName("lists")
+        private List<ListsBean> lists;
+
+        public int getDisplayCount() {
+            return displayCount;
+        }
+
+        public void setDisplayCount(int displayCount) {
+            this.displayCount = displayCount;
+        }
+
+        public List<ListsBean> getLists() {
+            return lists;
+        }
+
+        public void setLists(List<ListsBean> lists) {
+            this.lists = lists;
+        }
+
+        public static class ListsBean {
+            @SerializedName("theme")
+            private int theme;
+            @SerializedName("isactive")
+            private int isactive;
+            @SerializedName("bg_pic")
+            private String bgPic;
+            @SerializedName("bg_color")
+            private String bgColor;
+            @SerializedName("active")
+            private ActiveBean active;
+            @SerializedName("goto")
+            private String gotoX;
+            @SerializedName("sub")
+            private SubBean sub;
+            @SerializedName("prev_list")
+            private List<PrevListBean> prevList;
+
+            public int getTheme() {
+                return theme;
+            }
+
+            public void setTheme(int theme) {
+                this.theme = theme;
+            }
+
+            public int getIsactive() {
+                return isactive;
+            }
+
+            public void setIsactive(int isactive) {
+                this.isactive = isactive;
+            }
+
+            public String getBgPic() {
+                return bgPic;
+            }
+
+            public void setBgPic(String bgPic) {
+                this.bgPic = bgPic;
+            }
+
+            public String getBgColor() {
+                return bgColor;
+            }
+
+            public void setBgColor(String bgColor) {
+                this.bgColor = bgColor;
+            }
+
+            public ActiveBean getActive() {
+                return active;
+            }
+
+            public void setActive(ActiveBean active) {
+                this.active = active;
+            }
+
+            public String getGotoX() {
+                return gotoX;
+            }
+
+            public void setGotoX(String gotoX) {
+                this.gotoX = gotoX;
+            }
+
+            public SubBean getSub() {
+                return sub;
+            }
+
+            public void setSub(SubBean sub) {
+                this.sub = sub;
+            }
+
+            public List<PrevListBean> getPrevList() {
+                return prevList;
+            }
+
+            public void setPrevList(List<PrevListBean> prevList) {
+                this.prevList = prevList;
+            }
+
+            public static class ActiveBean {
+                @SerializedName("text")
+                private String text;
+                @SerializedName("text_color")
+                private String textColor;
+                @SerializedName("isshining")
+                private int isshining;
+                @SerializedName("gradient_color")
+                private List<String> gradientColor;
+
+                public String getText() {
+                    return text;
+                }
+
+                public void setText(String text) {
+                    this.text = text;
+                }
+
+                public String getTextColor() {
+                    return textColor;
+                }
+
+                public void setTextColor(String textColor) {
+                    this.textColor = textColor;
+                }
+
+                public int getIsshining() {
+                    return isshining;
+                }
+
+                public void setIsshining(int isshining) {
+                    this.isshining = isshining;
+                }
+
+                public List<String> getGradientColor() {
+                    return gradientColor;
+                }
+
+                public void setGradientColor(List<String> gradientColor) {
+                    this.gradientColor = gradientColor;
+                }
+            }
+
+            public static class SubBean {
+                @SerializedName("goto")
+                private String gotoX;
+                @SerializedName("desc")
+                private String desc;
+                @SerializedName("pics")
+                private List<String> pics;
+
+                public String getGotoX() {
+                    return gotoX;
+                }
+
+                public void setGotoX(String gotoX) {
+                    this.gotoX = gotoX;
+                }
+
+                public String getDesc() {
+                    return desc;
+                }
+
+                public void setDesc(String desc) {
+                    this.desc = desc;
+                }
+
+                public List<String> getPics() {
+                    return pics;
+                }
+
+                public void setPics(List<String> pics) {
+                    this.pics = pics;
+                }
+            }
+
+            public static class PrevListBean {
+                @SerializedName("icon")
+                private String icon;
+                @SerializedName("tips_text")
+                private String tipsText;
+                @SerializedName("icon_type")
+                private String iconType;
+                @SerializedName("title")
+                private String title;
+                @SerializedName("desc")
+                private String desc;
+
+                public String getIcon() {
+                    return icon;
+                }
+
+                public void setIcon(String icon) {
+                    this.icon = icon;
+                }
+
+                public String getTipsText() {
+                    return tipsText;
+                }
+
+                public void setTipsText(String tipsText) {
+                    this.tipsText = tipsText;
+                }
+
+                public String getIconType() {
+                    return iconType;
+                }
+
+                public void setIconType(String iconType) {
+                    this.iconType = iconType;
+                }
+
+                public String getTitle() {
+                    return title;
+                }
+
+                public void setTitle(String title) {
+                    this.title = title;
+                }
+
+                public String getDesc() {
+                    return desc;
+                }
+
+                public void setDesc(String desc) {
+                    this.desc = desc;
+                }
+            }
+        }
+    }
+
+    public static class PhotoListBean {
+        @SerializedName("guid")
+        private String guid;
+        @SerializedName("type")
+        private String type;
+        @SerializedName("isreal")
+        private int isreal;
+        @SerializedName("isnew")
+        private int isnew;
+
+        public String getGuid() {
+            return guid;
+        }
+
+        public void setGuid(String guid) {
+            this.guid = guid;
+        }
+
+        public String getType() {
+            return type;
+        }
+
+        public void setType(String type) {
+            this.type = type;
+        }
+
+        public int getIsreal() {
+            return isreal;
+        }
+
+        public void setIsreal(int isreal) {
+            this.isreal = isreal;
+        }
+
+        public int getIsnew() {
+            return isnew;
+        }
+
+        public void setIsnew(int isnew) {
+            this.isnew = isnew;
+        }
+    }
+
+    public static class ExquisiteAlbumBean {
+        @SerializedName("tag")
+        private String tag;
+        @SerializedName("name")
+        private String name;
+        @SerializedName("pics")
+        private List<PicsBean> pics;
+
+        public String getTag() {
+            return tag;
+        }
+
+        public void setTag(String tag) {
+            this.tag = tag;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public List<PicsBean> getPics() {
+            return pics;
+        }
+
+        public void setPics(List<PicsBean> pics) {
+            this.pics = pics;
+        }
+
+        public static class PicsBean {
+            @SerializedName("categroy")
+            private String categroy;
+            @SerializedName("guid")
+            private String guid;
+            @SerializedName("thumbnail_url")
+            private String thumbnailUrl;
+            @SerializedName("origin_url")
+            private String originUrl;
+
+            public String getCategroy() {
+                return categroy;
+            }
+
+            public void setCategroy(String categroy) {
+                this.categroy = categroy;
+            }
+
+            public String getGuid() {
+                return guid;
+            }
+
+            public void setGuid(String guid) {
+                this.guid = guid;
+            }
+
+            public String getThumbnailUrl() {
+                return thumbnailUrl;
+            }
+
+            public void setThumbnailUrl(String thumbnailUrl) {
+                this.thumbnailUrl = thumbnailUrl;
+            }
+
+            public String getOriginUrl() {
+                return originUrl;
+            }
+
+            public void setOriginUrl(String originUrl) {
+                this.originUrl = originUrl;
+            }
+        }
+    }
+
+    public static class AchievementBean {
+        @SerializedName("theme")
+        private int theme;
+        @SerializedName("achievementName")
+        private String achievementName;
+        @SerializedName("desc")
+        private String desc;
+        @SerializedName("bg_pic")
+        private String bgPic;
+        @SerializedName("display_type")
+        private int displayType;
+        @SerializedName("title")
+        private String title;
+        @SerializedName("goto")
+        private String gotoX;
+        @SerializedName("icons")
+        private List<String> icons;
+        @SerializedName("country")
+        private List<CountryBean> country;
+        @SerializedName("city")
+        private List<CityBean> city;
+
+        public int getTheme() {
+            return theme;
+        }
+
+        public void setTheme(int theme) {
+            this.theme = theme;
+        }
+
+        public String getAchievementName() {
+            return achievementName;
+        }
+
+        public void setAchievementName(String achievementName) {
+            this.achievementName = achievementName;
+        }
+
+        public String getDesc() {
+            return desc;
+        }
+
+        public void setDesc(String desc) {
+            this.desc = desc;
+        }
+
+        public String getBgPic() {
+            return bgPic;
+        }
+
+        public void setBgPic(String bgPic) {
+            this.bgPic = bgPic;
+        }
+
+        public int getDisplayType() {
+            return displayType;
+        }
+
+        public void setDisplayType(int displayType) {
+            this.displayType = displayType;
+        }
+
+        public String getTitle() {
+            return title;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+        public String getGotoX() {
+            return gotoX;
+        }
+
+        public void setGotoX(String gotoX) {
+            this.gotoX = gotoX;
+        }
+
+        public List<String> getIcons() {
+            return icons;
+        }
+
+        public void setIcons(List<String> icons) {
+            this.icons = icons;
+        }
+
+        public List<CountryBean> getCountry() {
+            return country;
+        }
+
+        public void setCountry(List<CountryBean> country) {
+            this.country = country;
+        }
+
+        public List<CityBean> getCity() {
+            return city;
+        }
+
+        public void setCity(List<CityBean> city) {
+            this.city = city;
+        }
+
+        public static class CountryBean {
+            @SerializedName("pic")
+            private String pic;
+            @SerializedName("name")
+            private String name;
+
+            public String getPic() {
+                return pic;
+            }
+
+            public void setPic(String pic) {
+                this.pic = pic;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+        }
+
+        public static class CityBean {
+            @SerializedName("pic")
+            private String pic;
+            @SerializedName("name")
+            private String name;
+
+            public String getPic() {
+                return pic;
+            }
+
+            public void setPic(String pic) {
+                this.pic = pic;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+        }
+    }
+
+    public static class QuestionListBean {
+        @SerializedName("question_id")
+        private String questionId;
+        @SerializedName("icon")
+        private String icon;
+        @SerializedName("answer_type")
+        private int answerType;
+        @SerializedName("question")
+        private String question;
+        @SerializedName("answer")
+        private String answer;
+        @SerializedName("pics")
+        private List<?> pics;
+
+        public String getQuestionId() {
+            return questionId;
+        }
+
+        public void setQuestionId(String questionId) {
+            this.questionId = questionId;
+        }
+
+        public String getIcon() {
+            return icon;
+        }
+
+        public void setIcon(String icon) {
+            this.icon = icon;
+        }
+
+        public int getAnswerType() {
+            return answerType;
+        }
+
+        public void setAnswerType(int answerType) {
+            this.answerType = answerType;
+        }
+
+        public String getQuestion() {
+            return question;
+        }
+
+        public void setQuestion(String question) {
+            this.question = question;
+        }
+
+        public String getAnswer() {
+            return answer;
+        }
+
+        public void setAnswer(String answer) {
+            this.answer = answer;
+        }
+
+        public List<?> getPics() {
+            return pics;
+        }
+
+        public void setPics(List<?> pics) {
+            this.pics = pics;
+        }
+    }
+
+    public static class UserDataBean {
+        @SerializedName("issina")
+        private int issina;
+        @SerializedName("goto")
+        private String gotoX;
+        @SerializedName("title")
+        private String title;
+        @SerializedName("text")
+        private String text;
+        @SerializedName("gradient_color")
+        private List<String> gradientColor;
+
+        public int getIssina() {
+            return issina;
+        }
+
+        public void setIssina(int issina) {
+            this.issina = issina;
+        }
+
+        public String getGotoX() {
+            return gotoX;
+        }
+
+        public void setGotoX(String gotoX) {
+            this.gotoX = gotoX;
+        }
+
+        public String getTitle() {
+            return title;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+        public String getText() {
+            return text;
+        }
+
+        public void setText(String text) {
+            this.text = text;
+        }
+
+        public List<String> getGradientColor() {
+            return gradientColor;
+        }
+
+        public void setGradientColor(List<String> gradientColor) {
+            this.gradientColor = gradientColor;
+        }
+    }
+
+    public static class GreetQuestionBean {
+        @SerializedName("questionid")
+        private String questionid;
+        @SerializedName("question")
+        private String question;
+        @SerializedName("answer_type")
+        private int answerType;
+
+        public String getQuestionid() {
+            return questionid;
+        }
+
+        public void setQuestionid(String questionid) {
+            this.questionid = questionid;
+        }
+
+        public String getQuestion() {
+            return question;
+        }
+
+        public void setQuestion(String question) {
+            this.question = question;
+        }
+
+        public int getAnswerType() {
+            return answerType;
+        }
+
+        public void setAnswerType(int answerType) {
+            this.answerType = answerType;
+        }
+    }
+
+    public static class GreetWishBean {
+        @SerializedName("wishid")
+        private String wishid;
+        @SerializedName("wish")
+        private String wish;
+        @SerializedName("content")
+        private String content;
+        @SerializedName("text")
+        private String text;
+        @SerializedName("answer_type")
+        private int answerType;
+
+        public String getWishid() {
+            return wishid;
+        }
+
+        public void setWishid(String wishid) {
+            this.wishid = wishid;
+        }
+
+        public String getWish() {
+            return wish;
+        }
+
+        public void setWish(String wish) {
+            this.wish = wish;
+        }
+
+        public String getContent() {
+            return content;
+        }
+
+        public void setContent(String content) {
+            this.content = content;
+        }
+
+        public String getText() {
+            return text;
+        }
+
+        public void setText(String text) {
+            this.text = text;
+        }
+
+        public int getAnswerType() {
+            return answerType;
+        }
+
+        public void setAnswerType(int answerType) {
+            this.answerType = answerType;
+        }
+    }
+}

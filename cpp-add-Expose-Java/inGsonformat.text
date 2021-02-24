@@ -1,0 +1,211 @@
+{
+    "ec": 0,
+    "em": "success",
+    "errcode": 0,
+    "errmsg": "success",
+    "timesec": 1534840392,
+    "data": {
+        "profile": {
+            "name": "豌豆射手",
+            "photo_list": [ //头像列表
+                {
+                    "guid":"11111111-1111-1111-1111-111111111111201912",
+                    "type":"video", //video image
+                    "isreal":1,
+                    "isnew":1,
+                },
+                {
+                    "guid":"11111111-1111-1111-1111-111111111111201912",
+                    "type":"image", //video image
+                    "isreal":1,
+                    "isnew":1,
+                },
+                {
+                    "guid":"11111111-1111-1111-1111-111111111111201912",
+                    "type":"image", //video image
+                    "isreal":1,
+                    "isnew":1,
+                }
+            ],
+            "fortune_info": { //财富值图片
+                "icon": "",
+                "goto": ""
+            },
+            "profile_onlinetag": { //在线状态
+                "icon": "",
+                "icon_type": "image", // image svga
+                "bg_color": "255,0,0",
+                "text_color": "14,14,14",
+                "text": "他正在直播",
+                "isshining": 1, //扫光动效
+                "goto": "",
+            },
+            "profile_marks": { //印记
+                "bg_color": "12,23,34",
+                "text_list": [
+                  "他在东边",
+                  "他在西边",
+                  "他在南边",
+                  "他在北边",
+                ] 
+            },
+            "device_info": { //设备
+                "name": "豌豆射手的",
+                "device": "安卓手机",
+            },
+            "exquisite_album": [ //精品相册
+                {
+                    "tag": "",
+                    "name": "",
+                    "pics": [
+                        {
+                            "categroy": "", //feedimage  exquisite
+                            "guid": "",
+                            "thumbnail_url": "",
+                            "origin_url": "",
+                        },
+                    ],
+                },
+                {
+                    "tag": "",
+                    "name": "",
+                    "pics": [
+                        {
+                            "categroy": "", //feedimage  exquisite
+                            "guid": "",
+                            "thumbnail_url": "",
+                            "origin_url": "",
+                        },
+                    ],
+                }
+            ],
+            "achievement": [ //成就
+                {
+                    "theme": 1, //环游世界
+                    "achievementName": "枚举值",
+                    "icons": ["icon1", "icon2", "icon3"],
+                    "desc": "",
+                    "bg_pic": "",
+                    "display_type": 1, //1 轮播 2 平铺
+                    "title": "环游世界",
+                    "goto": "",
+                    "country": [
+                        {
+                            "pic": "",
+                            "name": "",
+                        }
+                    ],
+                    "city": [
+                        {
+                            "pic": "",
+                            "name": "",
+                        }
+                    ],
+                },
+                {
+                    "theme": 0, //通用
+                    "achievementName": "枚举值",
+                    "icons": ["icon1", "icon2", "icon3"],
+                    "desc": "",
+                    "bg_pic": "",
+                    "display_type": 1, //1 轮播 2 平铺
+                    "title": "环游世界",
+                    "goto": "",
+                }
+            ],
+            "question_list": [ //男 回答
+                {
+                    "question_id": "123321",
+                    "icon": "",
+                    "answer_type": 1, //1 文字 2 图片
+                    "pics": [],
+                    "question": "用键盘哔哔两句",
+                    "answer": "adabc",
+                },
+                {
+                    "question_id": "ada123",
+                    "icon": "",
+                    "answer_type": 2, //1 文字 2 图片
+                    "pics": ["pic1", "pic2"],
+                    "question": "上传个图",
+                    "answer": "",
+                },
+            ],
+            "talent_list": { //达人
+                "display_count": 3,
+                "lists": [
+                    {
+                        "theme": 1, //通用
+                        "isactive": 1,
+                        "bg_pic": "",
+                        "bg_color": "",
+                        "active": {
+                            "text": "",
+                            "text_color": "",
+                            "gradient_color": ["255,0,0","0,0,255"],
+                            "isshining": 1
+                        },
+                        "prev_list": [
+                            {
+                                "icon": "",
+                                "tips_text": "守护",
+                                "icon_type": "",
+                                "title": "",
+                                "desc": "",
+                            }
+                        ],
+                        "goto": "",
+                        "sub": {
+                            "pics": ["pic1","pic2"],
+                            "goto": "",
+                            "desc": "",
+                        }
+                    },
+                    {
+                        "theme": 2, //抢车位
+                        "bg_pic": "",
+                        "prev_list": [
+                            {
+                                "icon": "",
+                                "icon_type": "",
+                                "title": "",
+                                "desc": "",
+                            }
+                        ],
+                        "goto": "",
+                        "sub": {
+                            "pics": ["pic1","pic2"],
+                            "goto": "",
+                            "desc": "",
+                        }
+                    }
+                ],
+            },
+            "user_data": [ //其他信息
+                {
+                    "gradient_color": ["255,0,0","0,0,255"],
+                    "issina": 0,
+                    "goto": "",
+                    "title": "",
+                    "text": "",
+                }
+            ],
+            "greet_question": [ //女 提问
+                {
+                    "questionid": "q1",
+                    "question": "你是谁",
+                    "answer_type": 1, //1 文字 2 图片 3 语音
+                }
+            ],
+            "greet_wish": [ //女 愿望
+                {
+                    "wishid": "w1",
+                    "wish": "我想要你陪我一起看{WISH}",
+                    "content": "豌豆射手狂喷豌豆",
+                    "text": "我想要你陪我一起看豌豆射手狂喷豌豆",
+                    "answer_type": 1, //1 文字 2 图片 3 语音
+                },
+            ],
+        },
+    }
+}
