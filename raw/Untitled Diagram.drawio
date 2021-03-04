@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T09:39:41.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="4D0EbX3rh7Ajkyj3yE6k" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T09:48:52.157Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="h6VYNX-unhN8he5IDIZE" version="14.2.7" type="github">
   <diagram id="aNJdAs4SY4H7PfTz8wJX" name="Page-1">
-    <mxGraphModel dx="1489" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,8 +33,8 @@
         <mxCell id="iTSj0iNUqM8Wc8fgZWOx-35" value="解析消息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="250" y="360" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-40" value="普通消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="290" y="400" width="80" height="20" as="geometry" />
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-40" value="普通消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="400" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iTSj0iNUqM8Wc8fgZWOx-41" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0;exitY=0;exitDx=110.83500000000001;exitDy=60;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="iTSj0iNUqM8Wc8fgZWOx-58" target="iTSj0iNUqM8Wc8fgZWOx-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -55,7 +55,7 @@
           <mxGeometry x="237.5" y="630" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iTSj0iNUqM8Wc8fgZWOx-58" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;消息缓冲队列&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;DeBounceObserver&amp;lt;Message&amp;gt;&lt;/pre&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=18.33;notch=14.17;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="210" y="430" width="240" height="60" as="geometry" />
+          <mxGeometry x="220" y="425" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iTSj0iNUqM8Wc8fgZWOx-59" value="解析消息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="640" y="360" width="160" height="30" as="geometry" />
@@ -88,7 +88,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-87" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;闪聊弹窗或&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;每条消息附带的聊天进度&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="iTSj0iNUqM8Wc8fgZWOx-64">
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-87" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;闪聊弹窗set或&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;每条消息附带的聊天进度&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="iTSj0iNUqM8Wc8fgZWOx-64">
           <mxGeometry x="-0.164" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -100,16 +100,49 @@
           <mxGeometry x="490" y="515" width="460" height="115" as="geometry" />
         </mxCell>
         <mxCell id="iTSj0iNUqM8Wc8fgZWOx-75" value="结束" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="282.5" y="890" width="95" height="40" as="geometry" />
+          <mxGeometry x="282.5" y="990" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iTSj0iNUqM8Wc8fgZWOx-77" value="结束" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="672.5" y="670" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="iTSj0iNUqM8Wc8fgZWOx-83" target="iTSj0iNUqM8Wc8fgZWOx-75">
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="iTSj0iNUqM8Wc8fgZWOx-83" target="iTSj0iNUqM8Wc8fgZWOx-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iTSj0iNUqM8Wc8fgZWOx-83" value="&lt;pre style=&quot;text-align: center ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;数据库异步入库&lt;/pre&gt;&lt;/pre&gt;&lt;hr&gt;&lt;/pre&gt;&lt;pre style=&quot;text-align: center ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ChatMsgNotifyObserver&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;具体入库逻辑：&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; text-align: center&quot;&gt;SaveChatMsgAction.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; text-align: center ; font-style: italic&quot;&gt;saveMessageFromIM&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; text-align: center&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; text-align: center ; color: rgb(102 , 14 , 122)&quot;&gt;finalList&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; text-align: center&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; text-align: center ; color: rgb(102 , 14 , 122)&quot;&gt;lvsMap&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; text-align: center&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="730" width="480" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-89" value="" style="curved=1;endArrow=classic;html=1;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#EA6B66;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="iTSj0iNUqM8Wc8fgZWOx-35" target="iTSj0iNUqM8Wc8fgZWOx-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="410" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="375" />
+              <mxPoint x="510" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-91" value="解锁成功Set&lt;br&gt;包装成一个Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#EA6B66;" vertex="1" connectable="0" parent="iTSj0iNUqM8Wc8fgZWOx-89">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint x="12.94" y="17.59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="iTSj0iNUqM8Wc8fgZWOx-93" target="iTSj0iNUqM8Wc8fgZWOx-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="iTSj0iNUqM8Wc8fgZWOx-93" target="iTSj0iNUqM8Wc8fgZWOx-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-93" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;是解锁成功Set&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;包装成的Message&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#b85450;fontColor=#FFFFFF;labelBackgroundColor=#EA6B66;fillColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="240" y="890" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="iTSj0iNUqM8Wc8fgZWOx-94" target="iTSj0iNUqM8Wc8fgZWOx-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-94" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;发送解锁成功&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;广播到主线程&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="890" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iTSj0iNUqM8Wc8fgZWOx-95" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;进行移库操作&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;沉淀&lt;/span&gt;闪聊聊天到普通聊天&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="897.5" width="150" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
